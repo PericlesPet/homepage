@@ -2,9 +2,9 @@
 title: 'Pericles Petrides'
 layout: single
 author_profile: true
-excerpt: 'Testing.'
+excerpt: 'This page is heavily under construction <br/> Pay no attention to that man behind the ~~curtain~~ page'
 header:
-  overlay_image: /images/paris.jpg
+  overlay_image: assets/images/scuola-di-atene-0.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
@@ -15,13 +15,18 @@ I'm currently **studying** ECE at [Aristotle University of Thessaloniki](https:/
 ---
 
 
+<!--
 *As a student, I have constantly sought opportunities for personal growth and development.*
+-->
 
 
+<!--
 ## Previous work experiences
-
+-->
+<!--
 - **Test** - Test:  
   Test
+-->
 
 
 ## Education
@@ -31,7 +36,7 @@ I'm currently **studying** ECE at [Aristotle University of Thessaloniki](https:/
 
 ---
 
-## Programming Skills
+## Technical Skills
 
 Tools & Technologies: **Python, C/C++, Matlab, bash, Git...**
 
@@ -43,17 +48,20 @@ Tools & Technologies: **Python, C/C++, Matlab, bash, Git...**
 | English  | Fluent |
 | Greek    | Native |
 
+
 <!--
 ## CV
-
+<!--
 This is a comment 
 Find attached the PDF version of my CVs:  
 *English version*: [CV]({{ site.url }}/download/CV_english.pdf)  
 *French version*: [CV]({{ site.url }}/download/CV_french.pdf)
 -->
 
-Update: November 2020
 
 ## Contact me
 
-For any inquires, you can reach me via email: **_[periclespetrides@gmail.com](mailto:periclespetrides@gmail.com)_**
+Reach out for anything: **_[periclespetrides@gmail.com](mailto:periclespetrides@gmail.com)_**
+
+
+Last Update: November 2020
