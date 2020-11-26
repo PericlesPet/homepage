@@ -13,7 +13,64 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Pericles' Internet Corner
+
+# Site Settings
+locale                   : "en-US"
+title                    : "Pericles Petrides"
+title_separator          : "|"
+name                     : "ECE"
+description              : "ECE Student, Autonomous Systems"
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 200
+comments:
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  disqus:
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+staticman:
+  allowedFields          : # ['name', 'email', 'url', 'message']
+  branch                 : # "master"
+  commitMessage          : # "New comment."
+  filename               : # comment-{@timestamp}
+  format                 : # "yml"
+  moderation             : # true
+  path                   : # "/_data/comments/{options.slug}" (default)
+  requiredFields         : # ['name', 'email', 'message']
+  transforms:
+    email                : # "md5"
+  generatedFields:
+    date:
+      type               : # "date"
+      options:
+        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+reCaptcha:
+  siteKey                :
+  secret                 :
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+search                   : # true, false (default)
+search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia, google
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
+google:
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
+
+#title: Pericles' Internet Corner
 email: periclespetrides (at) gmail (dot) com
 description: >- # this means to ignore newlines until "baseurl:"
   My personal website - Under construction 
@@ -62,7 +119,7 @@ author:
   links:
     - label: "Recursion"
       icon: "fas fa-fw fa-link"
-      url: "https://periclespet.github.io/welcome-to-my-crib/"
+      url: "https://periclespet.github.io/homepage/"
     #- label: "Twitter"
     #  icon: "fab fa-fw fa-twitter-square"
     #  url: "https://twitter.com/"
