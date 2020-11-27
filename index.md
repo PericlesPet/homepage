@@ -31,14 +31,16 @@ I'm currently **studying** ECE at [Aristotle University of Thessaloniki](https:/
 
 ## Education
 
-- **ECE Diploma (Integrated Master's)** - Aristotle University of Thessaloniki:  
-  Under construction
+- **Aristotle University of Thessaloniki, Thessaloniki, Greece** - :
+  Diploma in Electrical & Computer Engineering
 
 ---
 
 ## Technical Skills
 
-Tools & Technologies: **Python, C/C++, Matlab, bash, Git...**
+Languages: **Python, C/C++, Matlab, Shell Scripting, R**
+ 
+Tools & Technologies: **Git, CUDA, OpenMPI, POSIX Threads, Slack API (Chatbots), OpenCV,LATEX, Raspberry Pi, NVIDIA Jetson, Arduino, ROS & ROS2**
 
 
 ## Languages
